@@ -8,6 +8,70 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1 id="heading">Survey Form For Upcoming Coders</h1>
+    </header>
+    <form action="" method="dialog" id="form-box">
+    <section>
+        <div id="gen-info">            
+            <label for="username">Name</label><br>
+            <input type="text" id="username" aria-required="true"><br>
+            <label for="username">Email</label><br>
+            <input type="email" id="username"  required><br>
+            <label for="username">Age</label><br>
+            <input type="number" id="username"  required><br>
+        </div>
+    </section>
+    <section>
+        <div id="dropDown">
+            <label for="options">Which option best describes you</label>
+            <select name="describe" id="options"  aria-required="true">
+                
+                <option value="Student" selected>Student</option>
+                <option value="Employer">Employer</option>
+                <option value="Employee">Employee</option>
+                <option value="JobSeeker">Job Seeker</option>
+            </select>
+        </div>
+        <div id="radio-recommend">
+            <small> <b> Would you star this repository? </b></small><br>
+            <input type="radio" id="options">
+            <label for="recommend">Yes</label><br>
+            <input type="radio" id="options">
+            <label for="recommend">Later</label><br>
+            <input type="radio" id="options">
+            <label for="recommend">Definitely</label><br>
+        </div>        
+    </section>
+    <div>
+        <label for="checkbox">Languages and Frameworks known</label><br>
+
+        <input type="checkbox" name="C" id="checkbox">
+        <label for="C">C</label><br>
+        <input type="checkbox" name="C++" id="checkbox">
+        <label for="C">C++</label><br>
+        <input type="checkbox" name="C#" id="checkbox">
+        <label for="C">C#</label><br>
+        <input type="checkbox" name="Java" id="checkbox">
+        <label for="C">Java</label><br>
+        <input type="checkbox" name="Python" id="checkbox">
+        <label for="C">Python</label><br>
+        <input type="checkbox" name="JavaScript" id="checkbox">
+        <label for="C">JavaScript</label><br>
+        <input type="checkbox" name="React" id="checkbox">
+        <label for="C">React</label><br>
+        <input type="checkbox" name="Angular" id="checkbox">
+        <label for="C">Angular</label><br>
+        <input type="checkbox" name="Django" id="checkbox">
+        <label for="C">Django</label><br>
+        <input type="checkbox" name="Spring" id="checkbox">
+        <label for="C">Spring</label><br>
+    </div>
+    <div>
+        <label for="suggestion">Your Comments or Suggestions will improve us</label><br>
+        <textarea name="suggestion" id="suggestion" cols="30" rows="5"></textarea>
+    </div>
+    <button type="submit" id="button">Submit</button>
+    </form>
 </body>
 </html>
