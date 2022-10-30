@@ -11,18 +11,19 @@
     <header>
         <h1 id="heading">Survey Form For Upcoming Coders</h1>
     </header>
+    <main id="mainBody" >
     <form action="" method="dialog" id="form-box">
-    <section>
+    <section class="form-control">
         <div id="gen-info">            
             <label for="username">Name</label><br>
-            <input type="text" id="username" aria-required="true"><br>
-            <label for="username">Email</label><br>
-            <input type="email" id="username"  required><br>
-            <label for="username">Age</label><br>
-            <input type="number" id="username"  required><br>
+            <input type="text" id="username" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email"  required><br>
+            <label for="age">Age</label><br>
+            <input type="number" id="age"  required><br>
         </div>
     </section>
-    <section>
+    <section class="form-control">
         <div id="dropDown">
             <label for="options">Which option best describes you</label>
             <select name="describe" id="options"  aria-required="true">
@@ -43,7 +44,7 @@
             <label for="recommend">Definitely</label><br>
         </div>        
     </section>
-    <div>
+    <div class="form-control">
         <label for="checkbox">Languages and Frameworks known</label><br>
 
         <input type="checkbox" name="C" id="checkbox">
@@ -67,11 +68,12 @@
         <input type="checkbox" name="Spring" id="checkbox">
         <label for="C">Spring</label><br>
     </div>
-    <div>
-        <label for="suggestion">Your Comments or Suggestions will improve us</label><br>
+    <div class="form-control">
+        <label for="suggestion">Your Comments and Suggestions will improve us</label><br>
         <textarea name="suggestion" id="suggestion" cols="30" rows="5"></textarea>
     </div>
-    <button type="submit" id="button">Submit</button>
+    <button type="submit" id="button" class="form-control" >Submit</button>
     </form>
+</main>
 </body>
 </html>

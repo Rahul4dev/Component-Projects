@@ -1,0 +1,77 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  padding: 0.5rem 0;
+  margin: 0;
+}
+#mainBody {
+    text-align: left;
+    
+}
+
+.form-control {
+    padding: 10px 2px;
+}
+
+
+#form-box {
+  background-color: rgb(87, 177, 147);
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+.form-control label {
+  display: inline-block;
+}
+
+#gen-info {  
+  border-color: green;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+  
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  
+}
+
+button {
+  background-color: #05c46b;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: rgba(119, 222, 22, 0.675);
+}
+
+button:focus {
+  border: 5px;
+  border-color: rgb(61, 32, 158);
+}
